@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+}
+
+.container {
+    height: 550px;
+    width: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+.image {
+    height: 55%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 90%;
+    width: 85%;
+    border-radius: 15px;
+}
+.bottomBlock {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.innerBlock {
+    height: 100%;
+    width: 85%;
+}
+.title {
+    height: 20%;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.description {
+    height: 25%;
+    width: 100%;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+
+}
+.detail {
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.price {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color:hsl(178, 100%, 50%);
+    font-weight: 500;
+}
+p {
+    margin: 6px;
+}
+.time {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: hsl(215, 51%, 70%);
+
+}
+.creator {
+    height: 30%;
+    width: 100%;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.photo {
+    height: 40%;
+    width: 11%;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+.name {
+    margin: 20px 0px 0px 12px;
+}
+span {
+    color: hsl(0, 0%, 100%);
+}
